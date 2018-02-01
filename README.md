@@ -11,4 +11,6 @@ Steps:
     - can play around with it, input anything after '/text/' and it will parse it for phone numbers.
 3. npm test to run some tests.
 
-...to be finished
+TODO
+-finish readme
+-file issues
