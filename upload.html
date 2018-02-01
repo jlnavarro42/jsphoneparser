@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>
+            Upload a regular .txt file. Submit will return all phone numbers found in the file.
+        </p>
+        <form method='POST'encType='multipart/form-data' action='http://localhost:8080/api/phonenumbers/parse/file'>
+            <input type='file' name = 'file'> 
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
