@@ -13,4 +13,7 @@ Steps:
 
 TODO
 -finish readme
+
 -file issues
+
+-cleanup server code
