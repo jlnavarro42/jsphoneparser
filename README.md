@@ -1,20 +1,27 @@
 # jsphoneparser
 Application of google's libphonenumber written in JavaScript
 
-Prerequisites:
+# Prerequisites:
 
-Steps:
-1. npm install
-2. npm start to run the server
-    - visit localhost:8080 to see if it worked.
-    - visit localhost:8080/api/phonenumbers/parse/text/seneca%20phone%20number%20is%20123%20456%207890 and it should return a valid number
-    - can play around with it, input anything after '/text/' and it will parse it for phone numbers.
-3. npm test to run some tests.
+    nodeJS
 
-TODO
+# Installation:
+Install the dependancies
 
--finish readme
+    npm install
+    
+# Usage:
+To start the server, input:
 
--file issues
+    npm start
+    
+ To test the app, visit:
+ 
+    http://localhost:8080 to see the it running.
+    http://localhost:8080/api/phonenumbers/parse/text/seneca%20phone%20number%20is%20123%20456%207890 to test GET
+    http://localhost:8080/api/phonenumbers/parse/file/ to test POST
 
--cleanup server code
+# Tests:
+To start the tests, input:
+    
+    npm test
