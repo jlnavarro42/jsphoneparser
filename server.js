@@ -69,7 +69,8 @@ function phoneNumberParser(data){
         //console.log(error);
        }
    }
-   return formattedNumbers;
+   
+   return Array.from(new Set(formattedNumbers));
 }
 
 module.exports = app;
